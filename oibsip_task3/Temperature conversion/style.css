@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Fjalla One', Impact, Arial, sans-serif;
+ }
+ 
+ body {
+    background-image: url(https://i.postimg.cc/6qP70LcG/img2.jpg);
+ }
+ 
+ form{
+
+    margin: 100px auto;
+    text-align: center;
+ }
+ #tempCalc label {
+    font-size: 30px;
+ }
+ 
+ #temp {
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+ }
+ 
+ #temp_diff {
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+ }
+ 
+ [type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    background: linear-gradient(300deg,rgb(147, 50, 50),rgb(63, 63, 156));
+    color: white;
+ }
+ 
+ #resultContainer {
+    font-size: 35px;
+    color: white;
+ }
+.fn{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
